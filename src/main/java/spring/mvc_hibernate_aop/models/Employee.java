@@ -1,8 +1,7 @@
-package spring.mvc_hibernate_aop.entity;
+package spring.mvc_hibernate_aop.models;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Controller;
 
 import javax.persistence.*;
 
@@ -17,7 +16,7 @@ public class Employee {
     private int id;
     @Column(name= "name")
     private String name;
-    @Column(name = "surename")
+    @Column(name = "surname")
     private String surname;
     @Column(name = "department")
     private String department;
